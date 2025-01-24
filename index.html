@@ -39,8 +39,12 @@
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
-            background-color: #1da1f2; /* Twitter blue */
             transition: background-color 0.3s;
+        }
+
+        .buttons a.x {
+            background-color: #000; /* Black for X */
+            color: #fff; /* White X */
         }
 
         .buttons a.telegram {
@@ -48,11 +52,7 @@
         }
 
         .buttons a:hover {
-            background-color: #0d8ddb; /* Slightly darker blue */
-        }
-
-        .buttons a.telegram:hover {
-            background-color: #0077b5; /* Slightly darker Telegram blue */
+            opacity: 0.9;
         }
     </style>
 </head>
@@ -63,7 +63,7 @@
     </header>
 
     <div class="buttons">
-        <a href="https://x.com/barsik_official" target="_blank">Twitter</a>
+        <a href="https://x.com/barsik_official" target="_blank" class="x">X</a>
         <a href="https://t.me/barsik_off" target="_blank" class="telegram">Telegram</a>
     </div>
 </body>
